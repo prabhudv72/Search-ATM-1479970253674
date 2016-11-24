@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Search ATM
+  host: Search-ATM-123
+  disk_quota: 1024M
+  services:
+  - Search ATM-AdvancedMobileAccess
+  - Search ATM-imfpush
+  - Search ATM-cloudantNoSQLDB
